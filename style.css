@@ -1,3 +1,6 @@
+*{
+    margin: 0;
+}
 .container {
     margin: auto;
     background: #1b244a;
