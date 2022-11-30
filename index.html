@@ -5,16 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <script src="script.js"></script>
-    <title>Basketball-Scorecard</title>
+    <script src="script.js" defer></script>
+    <title>Scoreboard</title>
   </head>
   <body>
     <div class="container">
-      <div>
-        <h3>HOME</h3>
-      </div>
-      <div>
-        <h3>GUEST</h3>
+      <div class="score">
+        <div class="home">
+          <h1>
+            HOME
+            <div class="scoreInput">
+              <h2 id="homeScore"></h2>
+            </div>
+          </h1>
+          <div class="btns">
+            <button id="scorebtn">+1</button>
+            <button id="scorebtn2">+2</button>
+            <button id="scorebtn3">+3</button>
+          </div>
+        </div>
+
+        <div class="away">
+          <h1>
+            AWAY
+            <div class="scoreInput">
+              <h2 id="awayScore"></h2>
+            </div>
+          </h1>
+          <div class="btns">
+            <button id="scorebtn4">+1</button>
+            <button id="scorebtn5">+2</button>
+            <button id="scorebtn6">+3</button>
+          </div>
+        </div>
       </div>
     </div>
   </body>
