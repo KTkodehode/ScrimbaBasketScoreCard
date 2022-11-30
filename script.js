@@ -14,35 +14,31 @@ let counter = 0
 let counterAway = 0
 
 //** HOME  **/
-onePoint.addEventListener('click',(e) => {
-    e.preventDefault();
+onePoint.addEventListener('click',() => {
     counter++
     scoreCard.textContent = counter
 })
-twoPoint.addEventListener('click', (e) => {
-    e.preventDefault();
+twoPoint.addEventListener('click', () => {
     counter+=2
     scoreCard.textContent = counter
 })
-threePoint.addEventListener('click', (e) => {
-    e.preventDefault();
+threePoint.addEventListener('click', () => {
     counter+=3
     scoreCard.textContent = counter
 })
 
 //** AWAY **/
-fourPoint.addEventListener('click', (e) => {
-    e.preventDefault();
+fourPoint.addEventListener('click', () => {
     counterAway++
     scoreCardAway.textContent = counterAway
 })
-fivePoint.addEventListener('click', (e) => {
-    e.preventDefault();
+fivePoint.addEventListener('click', () => {
     counterAway+=2
     scoreCardAway.textContent = counterAway
 })
-sixPoint.addEventListener('click', (e) => {
-    e.preventDefault();
+sixPoint.addEventListener('click', () => {
+    
     counterAway+=3
     scoreCardAway.textContent = counterAway
 })
+// e.preventDefault();
