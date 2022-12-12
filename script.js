@@ -13,6 +13,9 @@ const scoreCardAway = document.getElementById('awayScore');
 let counter = 0
 let counterAway = 0
 
+document.getElementById("homeScore").textContent = counter
+document.getElementById("awayScore").textContent = counter
+
 //** HOME  **/
 onePoint.addEventListener('click',() => {
     counter++
